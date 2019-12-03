@@ -1,12 +1,7 @@
-
-
-
-
-
-
-
 $("#button1").click(function() {
     performLogic("#button1","#tile1");
+    $("#button1").hide();
+    $("#tile1").text("");
 });
 
 $("#button2").click(function() {
