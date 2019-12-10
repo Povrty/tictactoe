@@ -17,7 +17,7 @@ In this unit, coders will create the classic game of tic tac toe in their browse
 - [x] Submit your website using the link on the Agenda
 
 ### JavaScript
-- [ ] Create a variable that keeps track of the current player and set it equal to either a string of "X" or "O"
+- [x] Create a variable that keeps track of the current player and set it equal to either a string of "X" or "O"
 - [ ] Create a variable that keeps track of the total number of turns taken and set it equal to 0
 - [ ] Create a variable of a boolean type that will signal whether or not the game has ended and set it equal to false
 - [ ] Implement behavior to place pieces on the board. Do this by creating a function called performLogic with parameters buttonId and tileId that removes the button of the corresponding buttonId, and changes the text of the div that is the tileId to the player variable.
