@@ -3,12 +3,6 @@ let counterO = 0;
 let text = "x";
 let win = [10, 26, 31, 33, 36, 41, 59];
 
-function win(value, array){
-    if ($.inArray(counterX, win) != -1){
-        
-    }
-}
-
 function performLogic(button, tile){
     $(button).hide();
     $(tile).text(text);
@@ -33,14 +27,12 @@ $("#button1").click(function() {
     cycle(2);
     performLogic("#button1","#tile1");
     consoleLog();
-    win();
 });
 
 $("#button2").click(function() {
     cycle(3);
     performLogic("#button2","#tile2");
     consoleLog();
-    win();
 });
 
 $("#button3").click(function() {
